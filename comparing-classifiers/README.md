@@ -14,7 +14,7 @@ The business objective is to improve the effectiveness of the bank's marketing e
 
 The accuracy score of the baseline was determined to be 88.7.
 
-## Data Undestanding & Feature Engineering
+## Data Understanding & Feature Engineering
 
 The dataset maybe divided into features under various categories, namely:
 * Bank Client Data
