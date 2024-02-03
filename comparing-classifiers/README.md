@@ -1,4 +1,4 @@
-![image](https://github.com/girishnath/machinelearning/assets/154669/d6d8bfbf-0b28-4c2b-8a7d-38ab996bdfc3)# Comparing Classifiers
+# Comparing Classifiers
 
 In this practical application exercise, the performance of 4 classifiers were compared. The classifiers were Logistic Regression, Support Vector Machine, K Nearest Neighbors, and Decision Trees.
 
