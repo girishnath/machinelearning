@@ -25,11 +25,13 @@ CRISP-DM was leveraged as the structured framework for problem solving. As part 
 A major learning was that with high dimensionality (~10K features after one-hot encoding), and large size of dataset (~4MM at 10% sampling), the capablities of a normal runtime was exceeded. For this exercise, GridSearch of various hyperparameters was conducted on 4 models - `LogisticRegression`, `DecisionTreeClassifier`, `KNearestNeighborClassifier` and `SVC`.
 
 Based on the training runs that could be completed, `LogisticRegression` with a `max_iter=10000` yielded the best accuracy of `0.835`. The log loss for this model was `0.397`. The ROC Curve and Confusion Matrix were also analyzed prior to picking `LogisticRegression` as the winning model for this exercise.
+
+
 ![Confusion Matrix](images/Confusion_Matrix_LogisticRegression.png)
 ![ROC](images/ROC_Curve_LogisticRegression.png)
 
 ### Next steps
-While the individual models did yielded minimal accuracy than baseline, other methods such as ensemble techniques specifically Random Forests should be tried. Since the dataset has high dimensionality and size, GPU based training would be required for efficient exploration.
+While the individual models did yield minimally higher accuracy than baseline, other methods such as ensemble techniques specifically Random Forest should be tried. Since the dataset has high dimensionality and size, GPU based training would be required for efficient exploration.
 
 Hence, as a next step, exploration of ensemble techniques using GPU based library such as `cuML` is proposed.
 
