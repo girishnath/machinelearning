@@ -6,7 +6,7 @@
 *To be added later*
 
 ### Rationale
-Advertising is a 500+ billion dollar industry. Being able to predict the probability of clicks on a given advertisement would enable websites to efficiently use their digital space to place the right ads in front of the right user. The result would be higher profit for websites, and a better user experience for the user. This balance is very important for the sustenance of the free and open internet.
+In today's digital age, online advertising reigns supreme. Its effectiveness hinges on understanding user behavior and predicting their actions. This is where click-through rate (CTR), the probability of a user clicking on an ad, becomes crucial. Accurately predicting CTR empowers advertisers to optimize campaigns, maximize reach, and deliver targeted messaging. The result would be higher profit for websites, and a better user experience for the user. This balance is very important for the sustenance of the free and open internet.
 
 ### Research Question
 Given a user and the characteristics of a website that they are browsing, determine how likely it is that they will click on an advertisement that they are shown.
